@@ -1,0 +1,58 @@
+<!-- mostrar en este HTML los TOPICS de /topics -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Foro de Opinión</title>
+
+    <!--Import Google Icon Font-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <!--Link para CSS-->
+     <link type="text/css" rel="stylesheet" href="css/main.css"/>
+     <!--link para Favicon-->
+     <link rel="shortcut icon" href="assets/img/favicon3.jpg">
+  </head>
+
+  <body>
+
+    <!-- Titulo del Foro - MockUp1 -->
+    <h1>FotoForo</h1>
+
+    <!-- Con esto quiero el formulario para la nueva entrada del foro -->
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">perm_identity</i>
+          <input id="icon_prefix" type="text" class="validate">
+          <label for="icon_prefix">Por: </label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">description</i>
+          <input id="icon_telephone" type="tel" class="validate">
+          <label for="icon_telephone">Mensaje</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- Boton para agregar nuevo tema - MockUp1 -->
+  <div class="card-panel teal #b388ff deep-purple accent-1 crearTema">
+    <button class="btn waves-effect waves-light" type="submit" name="action">Crear Tema
+     <i class="material-icons right">library_add</i>
+    </button>
+  </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <!-- enlazando archivos js -->
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
+    <!-- enlazando materialize -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  </body>
+</html>
